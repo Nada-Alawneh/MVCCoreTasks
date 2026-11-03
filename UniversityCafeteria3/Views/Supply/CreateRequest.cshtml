@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Create Request";
+}
+
+<div class="container mt-5">
+    <h2 class="text-primary mb-4">Create Supply Request</h2>
+
+    @if (ViewBag.ErrorMessage != null)
+    {
+        <div class="alert alert-danger shadow-sm w-50">@ViewBag.ErrorMessage</div>
+    }
+
+    <form method="post" action="/Supply/SubmitRequest" class="w-50 p-4 bg-light shadow-sm rounded border border-light">
+        <div class="mb-3">
+            <label class="form-label fw-bold text-secondary">Employee Name</label>
+            <input type="text" name="EmployeeName" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label fw-bold text-secondary">Product Name</label>
+            <select name="ProductName" class="form-select">
+                <option value="Water">Water</option>
+                <option value="Orange Juice">Orange Juice</option>
+                <option value="Coffee">Coffee</option>
+                <option value="Sandwich">Sandwich</option>
+                <option value="Chocolate">Chocolate</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label class="form-label fw-bold text-secondary">Quantity</label>
+            <input type="number" name="Quantity" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label class="form-label fw-bold text-secondary">Required Date</label>
+            <input type="date" name="RequiredDate" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary mt-3 w-100 fw-bold">Submit Request</button>
+    </form>
+</div>
