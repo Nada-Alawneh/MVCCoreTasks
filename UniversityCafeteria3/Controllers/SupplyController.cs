@@ -72,26 +72,5 @@ namespace UniversityCafeteria2.Controllers
         {
             return View();
         }
-
-        public IActionResult CheckQuantity(int quantity)
-        {
-            string message = "";
-
-            if (quantity < 20)
-            {
-                message = "Small Order";
-            }
-            else if (quantity >= 20 && quantity <= 50)
-            {
-                message = "Medium Order";
-            }
-            else
-            {
-                message = "Large Order";
-            }
-
-            TempData["QuantityMessage"] = $"Order Size Classification: {message}";
-            return RedirectToAction("About");
-        }
     }
 }
