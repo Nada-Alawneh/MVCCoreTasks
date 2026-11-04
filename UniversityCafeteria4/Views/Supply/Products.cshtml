@@ -1,0 +1,23 @@
+﻿<div class="container mt-4">
+    <div class="text-center mb-5">
+        <h1 class="display-5 fw-bold text-primary">@ViewData["Title"]</h1>
+        <p class="lead text-muted">
+            Manager: <span class="text-dark fw-bold">@ViewData["ManagerName"]</span>
+            <span class="mx-3">|</span>
+            Total Products: <span class="badge bg-success rounded-pill px-3 py-2">@ViewData["ProductsCount"]</span>
+        </p>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @foreach (var product in ViewData["ProductList"] as string[])
+        {
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0" style="background-color: #f8f9fa;">
+                    <div class="card-body text-center d-flex align-items-center justify-content-center py-4">
+                        <h4 class="card-title text-dark fw-semibold mb-0">@product</h4>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

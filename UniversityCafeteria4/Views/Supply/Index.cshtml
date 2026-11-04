@@ -1,0 +1,18 @@
+﻿<div class="container mt-4">
+    <div class="text-center mb-5">
+        <h1 class="display-5 fw-bold text-primary">Cafeteria Categories</h1>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <ul class="list-group shadow-sm">
+                @foreach (var category in ViewBag.Categories as string[])
+                {
+                    <li class="list-group-item py-3 fs-5 text-center bg-light border-light mb-2 rounded text-dark fw-medium">
+                        @category
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>
