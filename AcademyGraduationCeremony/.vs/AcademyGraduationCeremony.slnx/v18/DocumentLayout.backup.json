@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\MVCCoreTasks\\AcademyGraduationCeremony\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54F9AD53-8B96-4C50-B064-D9844E2FB3F9}|AcademyGraduationCeremony.csproj|c:\\users\\user\\desktop\\mvccoretasks\\academygraduationceremony\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54F9AD53-8B96-4C50-B064-D9844E2FB3F9}|AcademyGraduationCeremony.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54F9AD53-8B96-4C50-B064-D9844E2FB3F9}|AcademyGraduationCeremony.csproj|c:\\users\\user\\desktop\\mvccoretasks\\academygraduationceremony\\views\\academygraduation\\review.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54F9AD53-8B96-4C50-B064-D9844E2FB3F9}|AcademyGraduationCeremony.csproj|solutionrelative:views\\academygraduation\\review.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54F9AD53-8B96-4C50-B064-D9844E2FB3F9}|AcademyGraduationCeremony.csproj|c:\\users\\user\\desktop\\mvccoretasks\\academygraduationceremony\\views\\academygraduation\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54F9AD53-8B96-4C50-B064-D9844E2FB3F9}|AcademyGraduationCeremony.csproj|solutionrelative:views\\academygraduation\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54F9AD53-8B96-4C50-B064-D9844E2FB3F9}|AcademyGraduationCeremony.csproj|c:\\users\\user\\desktop\\mvccoretasks\\academygraduationceremony\\views\\academygraduation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54F9AD53-8B96-4C50-B064-D9844E2FB3F9}|AcademyGraduationCeremony.csproj|solutionrelative:views\\academygraduation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54F9AD53-8B96-4C50-B064-D9844E2FB3F9}|AcademyGraduationCeremony.csproj|c:\\users\\user\\desktop\\mvccoretasks\\academygraduationceremony\\controllers\\academygraduationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54F9AD53-8B96-4C50-B064-D9844E2FB3F9}|AcademyGraduationCeremony.csproj|solutionrelative:controllers\\academygraduationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54F9AD53-8B96-4C50-B064-D9844E2FB3F9}|AcademyGraduationCeremony.csproj|c:\\users\\user\\desktop\\mvccoretasks\\academygraduationceremony\\models\\offer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54F9AD53-8B96-4C50-B064-D9844E2FB3F9}|AcademyGraduationCeremony.csproj|solutionrelative:models\\offer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54F9AD53-8B96-4C50-B064-D9844E2FB3F9}|AcademyGraduationCeremony.csproj|c:\\users\\user\\desktop\\mvccoretasks\\academygraduationceremony\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54F9AD53-8B96-4C50-B064-D9844E2FB3F9}|AcademyGraduationCeremony.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 177,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVCCoreTasks\\AcademyGraduationCeremony\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVCCoreTasks\\AcademyGraduationCeremony\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAawBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-07T17:53:53.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVCCoreTasks\\AcademyGraduationCeremony\\Views\\AcademyGraduation\\About.cshtml",
+              "RelativeDocumentMoniker": "Views\\AcademyGraduation\\About.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVCCoreTasks\\AcademyGraduationCeremony\\Views\\AcademyGraduation\\About.cshtml",
+              "RelativeToolTip": "Views\\AcademyGraduation\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-07T17:53:30.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Review.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVCCoreTasks\\AcademyGraduationCeremony\\Views\\AcademyGraduation\\Review.cshtml",
+              "RelativeDocumentMoniker": "Views\\AcademyGraduation\\Review.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVCCoreTasks\\AcademyGraduationCeremony\\Views\\AcademyGraduation\\Review.cshtml",
+              "RelativeToolTip": "Views\\AcademyGraduation\\Review.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-07T17:52:44.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVCCoreTasks\\AcademyGraduationCeremony\\Views\\AcademyGraduation\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\AcademyGraduation\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVCCoreTasks\\AcademyGraduationCeremony\\Views\\AcademyGraduation\\Index.cshtml",
+              "RelativeToolTip": "Views\\AcademyGraduation\\Index.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAjwCwAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-07T17:50:11.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AcademyGraduationController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVCCoreTasks\\AcademyGraduationCeremony\\Controllers\\AcademyGraduationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AcademyGraduationController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVCCoreTasks\\AcademyGraduationCeremony\\Controllers\\AcademyGraduationController.cs",
+              "RelativeToolTip": "Controllers\\AcademyGraduationController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAFcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T17:24:51.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Offer.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVCCoreTasks\\AcademyGraduationCeremony\\Models\\Offer.cs",
+              "RelativeDocumentMoniker": "Models\\Offer.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVCCoreTasks\\AcademyGraduationCeremony\\Models\\Offer.cs",
+              "RelativeToolTip": "Models\\Offer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T17:23:36.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVCCoreTasks\\AcademyGraduationCeremony\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVCCoreTasks\\AcademyGraduationCeremony\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T17:04:44.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

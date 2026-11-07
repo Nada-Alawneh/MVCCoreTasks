@@ -1,0 +1,46 @@
+﻿@model IEnumerable<AcademyGraduationCeremony.Models.Offer>
+
+<h2 class="mb-4">Graduation Supply Offers</h2>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">@TempData["Message"]</div>
+}
+
+@foreach (var group in Model.GroupBy(m => m.CategoryName))
+{
+    <h4 class="mt-4 text-primary">@group.Key</h4>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Supplier Name</th>
+                <th>Offer Name</th>
+                <th>Quantity</th>
+                <th>Unit Price</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var offer in group)
+            {
+                <tr>
+                    <td>@offer.SupplierName</td>
+                    <td>@offer.OfferName</td>
+                    <td>@offer.Quantity</td>
+                    <td>@offer.UnitPrice JD</td>
+                    <td>
+                        <a href="@Url.Action("SelectOffer", "AcademyGraduation", new { id = offer.Id, categoryId = offer.CategoryId })" class="btn btn-sm btn-outline-primary">Select Offer</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<div class="mt-4">
+    <a href="@Url.Action("Review", "AcademyGraduation")" class="btn btn-success btn-lg">Review Request</a>
+</div>
