@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\MVCCoreTasks\\CodeFirst\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\MVCCoreTasks\\CodeFirst\\Data\\Migrations\\20261107152250_AddCafeteriaSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20261107152250_AddCafeteriaSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9082773-52E2-4FDE-8AE0-3293CE5022A2}|CodeFirst.csproj|c:\\users\\user\\desktop\\mvccoretasks\\codefirst\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E9082773-52E2-4FDE-8AE0-3293CE5022A2}|CodeFirst.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9082773-52E2-4FDE-8AE0-3293CE5022A2}|CodeFirst.csproj|c:\\users\\user\\desktop\\mvccoretasks\\codefirst\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9082773-52E2-4FDE-8AE0-3293CE5022A2}|CodeFirst.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9082773-52E2-4FDE-8AE0-3293CE5022A2}|CodeFirst.csproj|c:\\users\\user\\desktop\\mvccoretasks\\codefirst\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9082773-52E2-4FDE-8AE0-3293CE5022A2}|CodeFirst.csproj|solutionrelative:models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9082773-52E2-4FDE-8AE0-3293CE5022A2}|CodeFirst.csproj|c:\\users\\user\\desktop\\mvccoretasks\\codefirst\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9082773-52E2-4FDE-8AE0-3293CE5022A2}|CodeFirst.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9082773-52E2-4FDE-8AE0-3293CE5022A2}|CodeFirst.csproj|c:\\users\\user\\desktop\\mvccoretasks\\codefirst\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9082773-52E2-4FDE-8AE0-3293CE5022A2}|CodeFirst.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9082773-52E2-4FDE-8AE0-3293CE5022A2}|CodeFirst.csproj|c:\\users\\user\\desktop\\mvccoretasks\\codefirst\\models\\purchaseorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9082773-52E2-4FDE-8AE0-3293CE5022A2}|CodeFirst.csproj|solutionrelative:models\\purchaseorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9082773-52E2-4FDE-8AE0-3293CE5022A2}|CodeFirst.csproj|c:\\users\\user\\desktop\\mvccoretasks\\codefirst\\models\\purchaseorderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9082773-52E2-4FDE-8AE0-3293CE5022A2}|CodeFirst.csproj|solutionrelative:models\\purchaseorderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 281,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20261107152250_AddCafeteriaSystem.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVCCoreTasks\\CodeFirst\\Data\\Migrations\\20261107152250_AddCafeteriaSystem.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20261107152250_AddCafeteriaSystem.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVCCoreTasks\\CodeFirst\\Data\\Migrations\\20261107152250_AddCafeteriaSystem.cs",
+              "RelativeToolTip": "Data\\Migrations\\20261107152250_AddCafeteriaSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T15:22:50.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVCCoreTasks\\CodeFirst\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVCCoreTasks\\CodeFirst\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-07T15:21:04.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVCCoreTasks\\CodeFirst\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVCCoreTasks\\CodeFirst\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T15:14:44.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PurchaseOrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVCCoreTasks\\CodeFirst\\Models\\PurchaseOrderItem.cs",
+              "RelativeDocumentMoniker": "Models\\PurchaseOrderItem.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVCCoreTasks\\CodeFirst\\Models\\PurchaseOrderItem.cs",
+              "RelativeToolTip": "Models\\PurchaseOrderItem.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T15:13:34.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PurchaseOrder.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVCCoreTasks\\CodeFirst\\Models\\PurchaseOrder.cs",
+              "RelativeDocumentMoniker": "Models\\PurchaseOrder.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVCCoreTasks\\CodeFirst\\Models\\PurchaseOrder.cs",
+              "RelativeToolTip": "Models\\PurchaseOrder.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAswAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T15:13:05.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVCCoreTasks\\CodeFirst\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVCCoreTasks\\CodeFirst\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T15:12:32.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVCCoreTasks\\CodeFirst\\Models\\Supplier.cs",
+              "RelativeDocumentMoniker": "Models\\Supplier.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVCCoreTasks\\CodeFirst\\Models\\Supplier.cs",
+              "RelativeToolTip": "Models\\Supplier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T15:11:50.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVCCoreTasks\\CodeFirst\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVCCoreTasks\\CodeFirst\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T15:10:43.334Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 44,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
