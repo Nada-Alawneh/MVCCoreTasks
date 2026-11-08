@@ -1,0 +1,37 @@
+﻿@model UniversityCafeteria6.Models.Product
+
+<h2>Create Product</h2>
+
+@using (Html.BeginForm("Create", "Product", FormMethod.Post))
+{
+    <div>
+        @Html.LabelFor(m => m.Name)
+        @Html.EditorFor(m => m.Name)
+    </div>
+    <br />
+    <div>
+        @Html.LabelFor(m => m.Price)
+        @Html.EditorFor(m => m.Price)
+    </div>
+    <br />
+    <div>
+        @Html.LabelFor(m => m.Quantity)
+        @Html.EditorFor(m => m.Quantity)
+    </div>
+    <br />
+    <div>
+        @Html.LabelFor(m => m.CategoryId)
+        @Html.EditorFor(m => m.CategoryId)
+    </div>
+    <br />
+    <div>
+        @Html.LabelFor(m => m.SupplierId)
+        @Html.EditorFor(m => m.SupplierId)
+    </div>
+    <br />
+    <button type="submit">Save</button>
+}
+<br />
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

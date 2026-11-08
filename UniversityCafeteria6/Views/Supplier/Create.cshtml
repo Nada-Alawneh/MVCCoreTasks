@@ -1,0 +1,27 @@
+﻿@model UniversityCafeteria6.Models.Supplier
+
+<h2>Create Supplier</h2>
+
+@using (Html.BeginForm("Create", "Supplier", FormMethod.Post))
+{
+    <div>
+        @Html.LabelFor(m => m.Name)
+        @Html.EditorFor(m => m.Name)
+    </div>
+    <br />
+    <div>
+        @Html.LabelFor(m => m.Phone)
+        @Html.EditorFor(m => m.Phone)
+    </div>
+    <br />
+    <div>
+        @Html.LabelFor(m => m.Email)
+        @Html.EditorFor(m => m.Email)
+    </div>
+    <br />
+    <button type="submit">Save</button>
+}
+<br />
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
