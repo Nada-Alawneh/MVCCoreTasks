@@ -1,0 +1,16 @@
+﻿@model Product
+
+<h2>Add Product</h2>
+
+@using (Html.BeginForm())
+{
+    <p>Name @Html.TextBoxFor(m => m.Name)</p>
+    <p>Description @Html.TextAreaFor(m => m.Description)</p>
+    <p>Price @Html.TextBoxFor(m => m.Price)</p>
+    <p>Quantity @Html.TextBoxFor(m => m.Quantity)</p>
+
+    <p>Category @Html.DropDownListFor(m => m.CategoryId, (SelectList)ViewBag.Categories)</p>
+    <p>Supplier @Html.DropDownListFor(m => m.SupplierId, (SelectList)ViewBag.Suppliers)</p>
+
+    <button type="submit">Save</button>
+}

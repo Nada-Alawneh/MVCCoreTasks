@@ -1,0 +1,22 @@
+﻿@model Supplier
+
+<h2>Add Category</h2>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label>Name :</label>
+        <input type="text" name="Name" />
+    </div>
+
+    <div>
+        <label>Email</label>
+        <textarea name="Email"></textarea>
+
+    </div>
+    <div>
+        <label>Phone</label>
+        <textarea name="Phone"></textarea>
+
+    </div>
+    <button type="submit">Save</button>
+</form>

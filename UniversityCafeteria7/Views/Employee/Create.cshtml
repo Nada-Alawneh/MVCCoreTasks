@@ -1,0 +1,15 @@
+﻿@model Employee
+
+<h2>Add Employee</h2>
+
+@using (Html.BeginForm())
+{
+    <p>Full Name @Html.TextBoxFor(m => m.FullName)</p>
+    <p>Phone @Html.TextBoxFor(m => m.Phone)</p>
+    <p>Email @Html.TextBoxFor(m => m.Email)</p>
+    <p>Position @Html.TextBoxFor(m => m.Position)</p>
+    <p>Salary @Html.TextBoxFor(m => m.Salary)</p>
+    <p>Hire Date @Html.TextBoxFor(m => m.HireDate, new { type = "date" })</p>
+
+    <button type="submit">Save</button>
+}

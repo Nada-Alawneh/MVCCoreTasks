@@ -1,0 +1,14 @@
+﻿@model Order
+
+<h2>Add Order</h2>
+
+@using (Html.BeginForm())
+{
+    <p>Customer Name @Html.TextBoxFor(m => m.CustomerName)</p>
+    <p>Total Price @Html.TextBoxFor(m => m.TotalPrice)</p>
+    <p>Status @Html.TextBoxFor(m => m.Status)</p>
+    <p>Order Date @Html.TextBoxFor(m => m.OrderDate, "{0:yyyy-MM-dd}", new { type = "date" })</p>
+    <p>Employee @Html.DropDownListFor(m => m.EmployeeId, (SelectList)ViewBag.Employee, "-- Choose Employee --")</p>
+
+    <button type="submit">Save</button>
+}

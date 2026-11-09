@@ -1,0 +1,23 @@
+﻿@model Supplier
+
+<h2>Edit Supplier</h2>
+
+<form asp-action="Edit" method="post">
+    <div>
+        <label>Name :</label>
+        <input type="text" name="Name" value="@Model.Name" />
+    </div>
+
+    <div>
+        <label>Email</label>
+        <input name="Email" value="@Model.Email" />
+
+    </div>
+    <div>
+        <label>Phone</label>
+        <input name="Phone" value="@Model.Phone" />
+
+    </div>
+
+    <button type="submit">Save</button>
+</form>
