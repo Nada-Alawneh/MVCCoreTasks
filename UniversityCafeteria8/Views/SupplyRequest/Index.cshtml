@@ -1,0 +1,45 @@
+@model IEnumerable<SupplyRequest>
+@{
+    ViewData["Title"] = "Supply requests";
+}
+
+<h1>Supply requests</h1>
+@{
+    var canManage = User.IsInRole("Admin") || User.IsInRole("SuperAdmin");
+}
+
+<p><a href="/SupplyRequest/Create">New request</a></p>
+
+@* رسالة بدل الجدول الفاضي إذا ما في طلبات ظاهرة للحساب. *@
+@if (!Model.Any())
+{
+    <p>No supply requests to display yet.</p>
+}
+else
+{
+<table class="table">
+    <thead>
+        <tr><th>ID</th><th>Date</th><th>Requested by</th><th>Status</th><th>Total</th><th>Actions</th></tr>
+    </thead>
+    <tbody>
+    @foreach (var request in Model)
+    {
+        <tr>
+            <td>@request.Id</td>
+            <td>@request.RequestDate.ToString("g")</td>
+            <td>@(request.User?.UserName ?? User.Identity?.Name)</td>
+            <td>@request.Status</td>
+            <td>@request.TotalPrice.ToString("0.00")</td>
+            <td>
+                <a href="/SupplyRequest/Details/@request.Id">Details</a>
+                @if (canManage)
+                {
+                    <a href="/SupplyRequest/Edit/@request.Id">Edit</a>
+                    <a href="/SupplyRequest/Delete/@request.Id">Delete</a>
+                }
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+}

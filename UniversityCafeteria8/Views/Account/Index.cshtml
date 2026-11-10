@@ -1,0 +1,29 @@
+@{
+    ViewData["Title"] = "Account";
+}
+
+<h1>Account</h1>
+@if (User.Identity?.IsAuthenticated == true)
+{
+    <p>Signed in as @User.Identity.Name.</p>
+    @* نعرض الصفحات المتاحة للمستخدم حسب دوره بعد تسجيل الدخول. *@
+    <ul>
+        <li><a href="/Product">Browse products</a></li>
+        <li><a href="/SupplyRequest">View supply requests</a></li>
+        <li><a href="/SupplyRequest/Create">Create a supply request</a></li>
+        @if (User.IsInRole("Admin") || User.IsInRole("SuperAdmin"))
+        {
+            <li><a href="/Product/Create">Add a product</a></li>
+        }
+        @if (User.IsInRole("SuperAdmin"))
+        {
+            <li><a href="/Admin">Manage users</a></li>
+        }
+    </ul>
+    <p><a href="/Account/Logout">Logout</a></p>
+}
+else
+{
+    <p><a href="/Account/Login">Login</a></p>
+    <p><a href="/Account/Register">Register</a></p>
+}

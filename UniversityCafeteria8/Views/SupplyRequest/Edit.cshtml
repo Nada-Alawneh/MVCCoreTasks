@@ -1,0 +1,29 @@
+@model SupplyRequest
+@inject Microsoft.AspNetCore.Antiforgery.IAntiforgery Antiforgery
+@{
+    ViewData["Title"] = "Edit supply request";
+    var token = Antiforgery.GetAndStoreTokens(Context);
+}
+
+<h1>Edit supply request</h1>
+<p>Request: @Model.Id</p>
+<p>Current status: @Model.Status</p>
+@if (ViewBag.Error != null)
+{
+    <p class="text-danger">@ViewBag.Error</p>
+}
+<form action="/SupplyRequest/Edit" method="post">
+    <input type="hidden" name="@token.FormFieldName" value="@token.RequestToken" />
+    <input type="hidden" name="Id" value="@Model.Id" />
+    <p>
+        <label for="Status">Status</label>
+        @* الطلب ببدأ Pending، والإدارة بتختار الموافقة أو الرفض. *@
+        <select id="Status" name="Status" required>
+            <option value="">Select a decision</option>
+            <option value="Approved" selected="@(Model.Status == "Approved" ? "selected" : null)">Approved</option>
+            <option value="Rejected" selected="@(Model.Status == "Rejected" ? "selected" : null)">Rejected</option>
+        </select>
+    </p>
+    <button type="submit">Save</button>
+</form>
+<p><a href="/SupplyRequest">Back to list</a></p>

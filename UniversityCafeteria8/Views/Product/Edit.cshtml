@@ -1,0 +1,37 @@
+@model Product
+@inject Microsoft.AspNetCore.Antiforgery.IAntiforgery Antiforgery
+@{
+    ViewData["Title"] = "Edit product";
+    var token = Antiforgery.GetAndStoreTokens(Context);
+}
+
+<h1>Edit product</h1>
+@foreach (var entry in ViewData.ModelState)
+{
+    foreach (var error in entry.Value.Errors)
+    {
+        <p class="text-danger">@error.ErrorMessage</p>
+    }
+}
+<form action="/Product/Edit" method="post">
+    <input type="hidden" name="@token.FormFieldName" value="@token.RequestToken" />
+    <input type="hidden" name="Id" value="@Model.Id" />
+    <p>
+        <label for="Name">Name</label>
+        <input id="Name" name="Name" type="text" required value="@Model?.Name" />
+    </p>
+    <p>
+        <label for="Description">Description</label>
+        <textarea id="Description" name="Description" required>@Model?.Description</textarea>
+    </p>
+    <p>
+        <label for="Price">Price</label>
+        <input id="Price" name="Price" type="number" min="0" step="any" required value="@(Model?.Price.ToString(System.Globalization.CultureInfo.InvariantCulture))" />
+    </p>
+    <p>
+        <label for="Quantity">Quantity</label>
+        <input id="Quantity" name="Quantity" type="number" min="0" required value="@Model?.Quantity" />
+    </p>
+    <button type="submit">Save</button>
+</form>
+<p><a href="/Product">Back to list</a></p>

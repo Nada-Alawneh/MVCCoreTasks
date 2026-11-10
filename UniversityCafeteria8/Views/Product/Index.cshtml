@@ -1,0 +1,46 @@
+@model IEnumerable<Product>
+@{
+    ViewData["Title"] = "Products";
+}
+
+<h1>Products</h1>
+@{
+    var canManage = User.IsInRole("Admin") || User.IsInRole("SuperAdmin");
+}
+
+@if (canManage)
+{
+    <p><a href="/Product/Create">Add product</a></p>
+}
+
+@* رسالة واضحة إذا لسه ما انضافت منتجات. *@
+@if (!Model.Any())
+{
+    <p>No products have been added yet.</p>
+}
+else
+{
+<table class="table">
+    <thead>
+        <tr><th>Name</th><th>Price</th><th>Quantity</th><th>Actions</th></tr>
+    </thead>
+    <tbody>
+    @foreach (var product in Model)
+    {
+        <tr>
+            <td>@product.Name</td>
+            <td>@product.Price.ToString("0.00")</td>
+            <td>@product.Quantity</td>
+            <td>
+                <a href="/Product/Details/@product.Id">Details</a>
+                @if (canManage)
+                {
+                    <a href="/Product/Edit/@product.Id">Edit</a>
+                    <a href="/Product/Delete/@product.Id">Delete</a>
+                }
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+}

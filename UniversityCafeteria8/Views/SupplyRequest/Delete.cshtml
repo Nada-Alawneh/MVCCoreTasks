@@ -1,0 +1,15 @@
+@model SupplyRequest
+@inject Microsoft.AspNetCore.Antiforgery.IAntiforgery Antiforgery
+@{
+    ViewData["Title"] = "Delete supply request";
+    var token = Antiforgery.GetAndStoreTokens(Context);
+}
+
+<h1>Delete supply request</h1>
+<p>Delete request @Model.Id?</p>
+<form action="/SupplyRequest/Delete" method="post">
+    <input type="hidden" name="@token.FormFieldName" value="@token.RequestToken" />
+    <input type="hidden" name="id" value="@Model.Id" />
+    <button type="submit">Delete</button>
+</form>
+<p><a href="/SupplyRequest">Back to list</a></p>

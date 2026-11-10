@@ -1,0 +1,29 @@
+@using Microsoft.AspNetCore.Identity
+@{
+    ViewData["Title"] = "Manage users";
+}
+
+<h1>Manage users</h1>
+@{
+    var users = (List<IdentityUser>)ViewBag.Users;
+}
+
+<table class="table">
+    <thead>
+        <tr><th>Name</th><th>Email</th><th>Actions</th></tr>
+    </thead>
+    <tbody>
+    @foreach (var user in users)
+    {
+        <tr>
+            <td>@user.UserName</td>
+            <td>@user.Email</td>
+            <td>
+                @* رابط صفحة تغيير دور المستخدم. *@
+                <a href="/Admin/Edit/@user.Id">Change role</a>
+                <a href="/Admin/Delete/@user.Id">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

@@ -1,0 +1,28 @@
+@model SupplyRequest
+@{
+    ViewData["Title"] = "Supply request details";
+}
+
+<h1>Supply request details</h1>
+<p>Request: @Model.Id</p>
+<p>Date: @Model.RequestDate.ToString("g")</p>
+<p>Requested by: @Model.User?.UserName</p>
+<p>Status: @Model.Status</p>
+<p>Total: @Model.TotalPrice.ToString("0.00")</p>
+
+<table class="table">
+    <thead>
+        <tr><th>Product</th><th>Quantity</th><th>Unit price</th></tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model.RequestItems)
+    {
+        <tr>
+            <td>@item.Product.Name</td>
+            <td>@item.Quantity</td>
+            <td>@item.Price.ToString("0.00")</td>
+        </tr>
+    }
+    </tbody>
+</table>
+<p><a href="/SupplyRequest">Back to list</a></p>

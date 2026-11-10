@@ -1,0 +1,15 @@
+@model Product
+@inject Microsoft.AspNetCore.Antiforgery.IAntiforgery Antiforgery
+@{
+    ViewData["Title"] = "Delete product";
+    var token = Antiforgery.GetAndStoreTokens(Context);
+}
+
+<h1>Delete product</h1>
+<p>Delete @Model.Name?</p>
+<form action="/Product/Delete" method="post">
+    <input type="hidden" name="@token.FormFieldName" value="@token.RequestToken" />
+    <input type="hidden" name="id" value="@Model.Id" />
+    <button type="submit">Delete</button>
+</form>
+<p><a href="/Product">Back to list</a></p>

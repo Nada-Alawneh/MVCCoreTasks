@@ -1,0 +1,37 @@
+@inject Microsoft.AspNetCore.Antiforgery.IAntiforgery Antiforgery
+@{
+    ViewData["Title"] = "New supply request";
+    var token = Antiforgery.GetAndStoreTokens(Context);
+}
+
+<h1>New supply request</h1>
+@if (ViewBag.Error != null)
+{
+    <p class="text-danger">@ViewBag.Error</p>
+}
+@{
+    var products = (List<Product>)ViewBag.Products;
+}
+
+@if (products.Count == 0)
+{
+    <p>No products are available.</p>
+}
+else
+{
+    <form action="/SupplyRequest/Create" method="post">
+        <input type="hidden" name="@token.FormFieldName" value="@token.RequestToken" />
+        @* بنرسل رقم كل منتج والكمية المقابلة إله بنفس الترتيب. *@
+        <p>Enter a quantity for each product you want to request.</p>
+        @foreach (var product in products)
+        {
+            <p>
+                <input type="hidden" name="productId" value="@product.Id" />
+                <label for="quantity-@product.Id">@product.Name (@product.Price.ToString("0.00"))</label>
+                <input id="quantity-@product.Id" name="quantity" type="number" min="0" value="0" required />
+            </p>
+        }
+        <button type="submit">Submit request</button>
+    </form>
+}
+<p><a href="/SupplyRequest">Back to list</a></p>

@@ -1,0 +1,11 @@
+@model Product
+@{
+    ViewData["Title"] = "Product details";
+}
+
+<h1>Product details</h1>
+<p>Name: @Model.Name</p>
+<p>Description: @Model.Description</p>
+<p>Price: @Model.Price.ToString("0.00")</p>
+<p>Quantity: @Model.Quantity</p>
+<p><a href="/Product">Back to list</a></p>
